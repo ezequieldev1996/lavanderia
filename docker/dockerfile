@@ -1,0 +1,23 @@
+# Dockerfile
+FROM php:8.1-apache
+
+# Instala GD para códigos de barras
+RUN apt-get update && apt-get install -y \
+    libpng-dev \
+    libjpeg-dev \
+    libfreetype6-dev \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install gd mysqli
+
+# Habilita mod_rewrite (si lo usas)
+RUN a2enmod rewrite
+
+# Copia tu app al contenedor
+COPY . /var/www/html/
+
+# Cambia el puerto de Apache a 8000
+RUN sed -i 's/80/8000/g' /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf
+
+EXPOSE 8000
+
+CMD ["apache2-foreground"]

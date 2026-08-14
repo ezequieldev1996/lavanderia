@@ -1,0 +1,69 @@
+
+
+
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+title{
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #03051e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+header img {
+    display: flex;
+    /*justify-content:;*/
+    height: 70px;
+    margin-right: 10px;
+    margin:13px;
+    border-radius: 50px;
+}
+header h2{
+   display:none ;
+}
+nav {
+    background-color: #03051e;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul  :hover{
+    text-decoration: underline;
+     color: #eaf73a;
+     text-decoration: none;
+
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #03051e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

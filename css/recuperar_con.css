@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #EEEEEE;
+    background-image: url(../img/They\ are\ so\ cute\ I\ want\ some.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Quicksand', sans-serif; /* Seleccionar la fuente Quicksand */
+}
+
+h1 {
+    font-family: 'Arenas movedizas', sans-serif;
+    text-align: center;
+    padding: 40px;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 500px;
+    padding: 40px ;
+    margin: auto;
+    background-color:none; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra añadida */
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 25px ;
+    text-transform: capitalize;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: solid #EEEEEE;
+    padding: 10px; /* Aumentado el padding para mejorar el aspecto */
+    outline: none;
+    margin-bottom: 25px;
+    transition: border-bottom 0.3s ease; /* Efecto de transición al hacer foco */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-bottom: solid #f3f72e;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: black; 
+}
+
+.form__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centrar verticalmente los botones */
+}
+
+.salir, .enviar {
+    text-decoration: none;
+    padding: 10px 25px; /* Ajustado el padding para que sea uniforme en ambos botones */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efecto de transición en hover */
+}
+
+.salir {
+    background-color: #03051e;
+    color: white;
+}
+
+.salir:hover {
+    background: #090f5f;
+}
+
+.enviar {
+    background: #f3f72e;
+    color: black;
+    border: none;
+}
+
+.enviar:hover {
+    background: #acaf05;
+}

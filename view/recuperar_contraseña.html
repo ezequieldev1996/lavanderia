@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recuperar_con.css">
+    <link rel="shortcut icon" href="../img/iconopequeño.jpeg" type="image/x-icon">
+    <!-- Tipo de fuente para los títulos Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Quicksand:wght@300 & display=swap" rel="stylesheet">
+    <title>RECUPERAR CONTRASEÑA</title>
+</head>
+<body>
+    <h1>Recuperar tu Contraseña</h1>
+    <div class="container">
+        <h2>Ingrese su usuario con el que está registrado</h2>
+        <form action="../controller/recuperar_password.php" method="post">
+            <div class="form__correo">
+                <input type="text" name="usuario" placeholder="Ingrese su usuario" class="correo">
+            </div>
+            <div class="form__contraseña">
+                <input type="password" name="nueva_contraseña" placeholder="Ingrese su nueva contraseña" class="contraseña">
+            </div>
+            <div class="form__button">
+                <a class="salir" href="../view/meerkast_login.html">Salir</a>
+                <button class="salir" type="submit">Actualizar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

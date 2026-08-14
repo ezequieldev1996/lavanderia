@@ -1,0 +1,89 @@
+
+.titulo {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.titulo h2 {
+margin: 0;
+font-size: 24px;
+color: #03051e;
+}
+
+/* Estilos para el contenedor principal */
+.contenedor {
+margin: 0 auto;
+padding: 20px;
+width: 400px;
+border-color: black;
+border: 2px solid black;
+border-radius: 5px;
+box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.1);;
+/* background-color:#03051e;*/
+}
+
+/* Estilos para el formulario */
+.contenedor form {
+display: block;
+border: 10px solid black; /* Agregar borde */
+padding: 20px; /* Espacio interno para separar el borde del contenido */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+border-color: #0056b3;
+}
+
+/* Estilos para las etiquetas */
+.contenedor label {
+margin-bottom: 5px;
+display: block;
+border-color: #0056b3;
+}
+
+/* Estilos para los inputs y selects */
+.contenedor .input,
+.contenedor select {
+margin-bottom: 10px;
+padding: 8px;
+width: 100%;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+/* Estilos para el botón registrar */
+.contenedor .boton-registrar {
+display: inline-block;
+padding: 10px 20px;
+background-color: #03051e;
+color: #fff;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+text-decoration: none;
+border: 30px; ;
+}
+
+/* Estilos para el botón registrar al pasar el ratón */
+.contenedor .boton-registrar:hover {
+background-color: #0056b3;
+}
+
+/* Estilos para el botón de enlace */
+.contenedor .boton-enlace {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 20px;
+background-color: #28a745;
+color: #fff;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+text-decoration: none;
+border: 30px; 
+margin: 20px;
+}
+
+/* Estilos para el botón de enlace al pasar el ratón */
+.contenedor .boton-enlace:hover {
+background-color: #218838;
+}
+

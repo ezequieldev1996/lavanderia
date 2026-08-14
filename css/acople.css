@@ -1,0 +1,119 @@
+body{
+    
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color:#87CEEB;
+  /*Color principal: Rosa suave (#F7CAC9)
+Color secundario: Verde menta (#98FB98)
+Color de acento: Azul cielo claro (#87CEEB)
+Color de fondo: Blanco roto (#F5F5F5)
+Color de texto: Gris oscuro (#333333)*/
+  
+}
+
+h1{
+  color: white;
+  text-transform: capitalize;
+  padding: 20PX;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #03051e;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+
+.logo img{
+  height: 70px;
+  margin-right: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  margin-right: 2px;
+}
+nav {
+  
+  padding: 10PX;
+  margin: 5PX;
+}
+nav a{
+  font-size: 18px;
+  padding: 8px; 
+  
+}
+
+  
+  main {
+    padding: 20px;
+  }
+  
+  .contenedor {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #03051e ;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+  }
+  
+  button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #03051e;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #resultado {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #03051e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  

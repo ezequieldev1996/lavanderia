@@ -1,0 +1,273 @@
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color:#87CEEB;
+    /*Color principal: Rosa suave (#F7CAC9)
+Color secundario: Verde menta (#98FB98)
+Color de acento: Azul cielo claro (#87CEEB)
+Color de fondo: Blanco roto (#F5F5F5)
+Color de texto: Gris oscuro (#333333)*/
+    
+}
+
+h1{
+    color: white;
+    text-transform: capitalize;
+    padding: 20PX;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #03051e;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2px;
+}
+nav {
+    
+    padding: 10PX;
+    margin: 5PX;
+}
+nav a{
+    font-size: 18px;
+    padding: 8px; 
+    
+}
+
+
+/* estilo de la tabla*/
+
+h2{
+    text-align: center;
+    text-transform:capitalize ;
+    font-size:30px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.table{
+    display: flex;
+    justify-content:space-evenly;
+    margin:20px 0;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    
+        
+}
+input{
+    width: 300px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-inline-start: 5px;
+    border-color:  #ee0b0b;
+    border: none;
+    border-bottom: solid #03051e;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+    
+}
+/* boton de buscar cliente*/
+.buscar_cliente{
+    background-color: #03051e;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    
+}
+.buscar_cliente:hover{
+    background-color: #050c79;
+    transition: all .3s;
+}
+/*boton de registrar cliente*/
+.registrar_cliente{
+    background-color: #03051e;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    
+    
+}
+.registrar_cliente:hover{
+    background-color: #050c79;
+    transition: all .3s;
+}
+/*este es el seleccionar la cedula,desplegable*/
+select {
+    border-color:  none;
+    margin-bottom: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-inline-start: 11px;
+    cursor: pointer;
+    padding: 5px;
+}
+/*carrito*/
+h4{
+    text-align: center;
+    margin-bottom:10px ;
+    font-size: 25px;
+    
+}    
+.container{/*fondo del color de la lista*/
+    background-color: #81d7f1;
+}
+.grid{
+    display: grid;
+    max-width: 1150px;
+    margin:auto;
+    justify-content: center;
+    gap:12px;
+    grid-template-columns: repeat(8,140px);/*hace que se repitan las columnas */
+    
+}
+/*color de las cajitas,ademas de tener el diseño del textarea y la cantidad*/
+.item{
+    background-color: #afe6f7dc;
+    border:solid thin #03051e;
+    height: 360px;
+    border-radius: 40px;
+    
+    
+    /*box-shadow: 2px 2px 1px 1px #03051e ;*/
+    
+}
+.item img  {
+    width: 100%;
+    height: 100px;
+    border-radius: 40px;
+}
+.info{
+    padding: 5.5px;
+    align-items: center;
+    justify-content: center;
+}
+.info h3{
+    font-size: 15.5px;
+    text-transform:capitalize;
+    text-align: center;
+    margin: 0;
+}
+.cantidad{
+    
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 80px;
+}
+.cantidad p {
+    margin: 8px;
+}
+.cantidad input{
+    margin: 5px;
+    width: 87px;
+}
+.cantidad textarea{
+    width: 105px;
+    border-radius: 10px;
+    height: 80px;
+    color:#050c79;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*este es el boton de agregar*/
+
+
+.info button {
+    margin-top: 68px;
+    padding:7px;
+    width: 100%;
+    background-color: #03051e;
+    border: none;
+    outline: none;
+    color: #fffffd;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    
+}
+.info button:hover {
+    background-color: #050c79;
+    transition: all .3s;
+}
+
+
+
+.boton button {
+    justify-content: center;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #03051e;
+    width: 500px;
+    color: #fffffd;
+    font-size: 1.5rem;
+    margin-left: 350px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+
+}
+.boton button:hover{
+    background-color: #050c79;
+    transition: all .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

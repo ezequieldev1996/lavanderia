@@ -1,0 +1,57 @@
+
+  /* Estilos para el título */
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #03051e;
+    
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #ccc; /* Agregar borde al contenedor */
+    border-radius: 5px; /* Agregar bordes redondeados */
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.1); /* Agregar sombra al contenedor */
+}
+
+/* Estilos para el formulario */
+.container form {
+    display: block;
+}
+
+/* Estilos para las etiquetas */
+.container label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Estilos para los inputs y select */
+.container .input,
+.container select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para el botón */
+.container .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #03051e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Estilos para el botón al pasar el ratón */
+.container .boton:hover {
+    background-color: #0056b3;
+}
